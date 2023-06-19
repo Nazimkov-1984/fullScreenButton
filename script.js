@@ -1,5 +1,4 @@
-const btn = document.querySelector("button");
 
-btn.addEventListener("click", () => {
+document.querySelector("button")?.addEventListener("click", () => {
   document.documentElement.requestFullscreen();
 });
